@@ -1,0 +1,116 @@
+/* 
+    Created on : 03-sep-2015, 19:12:06
+    Author     : Cristian RD
+*/
+
+/* Estilos generales */
+
+body{   
+    background-image: url(mundo.jpg);
+    padding-top: 80px;
+    color: blue;
+   
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+
+.header{
+    
+    background: #333;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    position: fixed;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+}
+
+.header a{
+    color: white; 
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.footer{
+    background: #333;
+    color:white;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    position: fixed;
+    left: 0px;
+   
+}
+.footer p{
+    color:white;
+    line-height: 45px;
+}
+
+
+.cursive{
+    font-family: 'Lobster', cursive;
+}
+
+.lora{
+    font-family: 'Lora', serif;
+}
+
+.tamaño-medio{
+    font-size: 20px;
+}
+
+.espacioarriba{
+    margin-top: 100px;
+}
+.espacioabajo{
+    margin-bottom: 100px;
+}
+
+.tabla{
+    text-align: center;
+    color: white;
+    
+}
+.tabla td:first-child {
+	width: 100px;
+}
+ 
+.tabla td:nth-child(2) {
+	width: 150px;
+}
+ 
+.tabla td:nth-child(3) {
+	width: 200px;
+}
+.tabla td:nth-child(4) {
+	width: 200px;
+}
+ 
+.tabla td:last-child {
+	width: 300px;
+        
+}
+
+.tabla th{
+    text-align: center;
+}
+
+
